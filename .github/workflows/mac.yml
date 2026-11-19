@@ -7,9 +7,8 @@ defaults:
 
 jobs:
   build:
-    runs-on: macos-27
+    runs-on: xcode-27
     steps:
-    - uses: browser-actions/setup-chrome@v2
     - uses: actions/checkout@v2
     - name: Setting the environment up.
       env:
